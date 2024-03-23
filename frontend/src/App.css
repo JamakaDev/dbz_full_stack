@@ -1,0 +1,22 @@
+.App {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  background-image: linear-gradient(to top right, #860f0f, #30598a);  
+  /* border: 2px solid red; */
+}
+
+
+
+@keyframes fadeInOut {
+  0%, 100% { opacity: 0;}
+  50% { opacity: 1;}
+}
+#logos {
+  box-shadow: -5px 5px 5px rgba(0, 0, 0, 0.75);
+  animation: fadeInOut 4s linear forwards;
+  animation-iteration-count: infinite;
+}
+

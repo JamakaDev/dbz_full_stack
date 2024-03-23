@@ -1,0 +1,47 @@
+.home {
+  background-image: linear-gradient(45deg,  rgba(0, 0, 0, 0.75), rgba(255, 192, 203, 0.512), rgba(233, 177, 225, 0.75), rgba(255, 192, 203, 0.946), rgba(0, 0, 0, 0.75));
+  /* background-color: rgba(0, 0, 0, 0.85); */
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /* border: 2px solid red; */
+
+}
+
+.imgs {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+
+#mybtns {
+  margin-top: 2.5vh;
+}
+
+#background {
+  width: 70vw;
+  height: 85vh;
+  margin-top: 2.5vh;
+  border-radius: 2%;
+  border: .25em solid rgba(0, 0, 0, 0.69);
+}
+
+#character {
+  width: 20vw;
+  height: 85vh;
+  margin-top: 2.5vh;
+  border-radius: 5%;
+  background-image: linear-gradient(45deg, rgba(236, 37, 213, 0.75), rgba(46, 194, 239, 0.75));;
+  /* background-color: rgba(154, 144, 85, 0.726); */
+  /* box-shadow: 
+  rgba(0, 0, 0, 0.75) 0px 10px 10px,
+  rgba(239, 251, 5, 0.938) 0px 14px 28px, 
+  rgba(0, 0, 0, 0.515) 0px 10px 10px,
+  rgba(255, 255, 255, 0.938) 0px 12px 12px; */
+}
